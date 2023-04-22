@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}
+    My Blog
+{% endblock %}
+
+
+{% block content %}
+    <header id="main-navigation">
+        <h1><a href="">Shiva Chandra's Blog</a></h1>
+
+        <nav>
+            <a href="">All Posts</a>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <header>
+            <img src="" alt="Shiva Chandra - The Author of This Blog" />
+            <h2>SHIVA CHANDRA'S BLOG</h2>
+        </header>
+        <p> Hi, I am Shiva Chandra and I love blogging about politics, International relations and geo-politics!!</p>
+    </section>
+
+    <section id="latest-posts">
+        <h2>My Latest Thoughts</h2>
+
+        <ul>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="" alt="International Relations" />
+                        <div class="post__content">
+                            <h3>International Relations</h3>
+                            <p>
+                                It deals with the relations mainly between India and it's neighbours. It also broadly covers large spectrum of topics of power contention between exisitng superpowers as well as the rising ones too.
+                            </p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>What i do</h2>
+        <p>
+            I am techie with the side hustle on topic of international relations and politics in particular but keeping myself upto date in general.
+        </p>
+        <p>
+            My goal is to educate people about the importance of diplomacy and relations between the countries and intricacies involved in decision-making even if it doesn't have populus backing.
+        </p>
+
+    </section>
+{% endblock %}
